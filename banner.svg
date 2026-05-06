@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" width="760" height="180">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#1f6feb"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="760" height="180" fill="url(#bgGrad)" rx="8"/>
+  <rect x="0" y="0" width="760" height="2" fill="url(#accent)" opacity="0.7"/>
+  <rect x="0" y="178" width="760" height="2" fill="url(#accent)" opacity="0.4"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#58a6ff" stroke-width="0.5">
+    <line x1="0" y1="36" x2="760" y2="36"/>
+    <line x1="0" y1="72" x2="760" y2="72"/>
+    <line x1="0" y1="108" x2="760" y2="108"/>
+    <line x1="0" y1="144" x2="760" y2="144"/>
+  </g>
+
+  <!-- Stacked documents icon -->
+  <g transform="translate(70, 90)" filter="url(#glow)">
+    <!-- Back doc -->
+    <rect x="-26" y="-38" width="44" height="56" rx="3" fill="#0d1117" stroke="#58a6ff" stroke-width="2" opacity="0.55"/>
+    <!-- Mid doc -->
+    <rect x="-20" y="-32" width="44" height="56" rx="3" fill="#0d1117" stroke="#58a6ff" stroke-width="2" opacity="0.8"/>
+    <!-- Front doc -->
+    <rect x="-14" y="-26" width="44" height="56" rx="3" fill="#0d1117" stroke="#58a6ff" stroke-width="2.5"/>
+    <!-- Folded corner -->
+    <polyline points="22,-26 22,-18 30,-18" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="22" y1="-26" x2="30" y2="-18" stroke="#58a6ff" stroke-width="2" stroke-linecap="round"/>
+    <!-- Lines on front doc -->
+    <line x1="-8" y1="-12" x2="22" y2="-12" stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="-8" y1="-4"  x2="22" y2="-4"  stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="-8" y1="4"   x2="22" y2="4"   stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="-8" y1="12"  x2="14" y2="12"  stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="-8" y1="20"  x2="18" y2="20"  stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- Accent divider -->
+  <line x1="155" y1="20" x2="155" y2="160" stroke="#58a6ff" stroke-width="1" opacity="0.15"/>
+
+  <!-- Faded checklist -->
+  <g font-family="'Courier New', Courier, monospace" font-size="9" fill="#58a6ff" opacity="0.08">
+    <text x="580" y="28">[x] WORK ORDER</text>
+    <text x="580" y="42">[x] SCOPING DOC</text>
+    <text x="580" y="56">[x] RULES OF ENGAGE</text>
+    <text x="580" y="70">[x] FINDINGS REPORT</text>
+    <text x="580" y="84">[x] EXEC SUMMARY</text>
+    <text x="580" y="98">[x] AUDIT CHECKLIST</text>
+    <text x="580" y="112">[x] EVIDENCE LOG</text>
+    <text x="580" y="126">[x] RETEST FORM</text>
+    <text x="580" y="140">[ ] ADD YOURS HERE</text>
+    <text x="580" y="154">VERSIONED IN GIT</text>
+  </g>
+
+  <!-- Title -->
+  <text x="172" y="52" font-family="'Courier New', Courier, monospace" font-size="30" font-weight="bold" fill="#58a6ff" filter="url(#glow)">Templates</text>
+
+  <!-- Subtitle -->
+  <text x="174" y="76" font-family="'Courier New', Courier, monospace" font-size="13" fill="#8b949e">Pen Testing &amp; Auditing Document Templates</text>
+
+  <!-- Description -->
+  <text x="174" y="100" font-family="'Courier New', Courier, monospace" font-size="11" fill="#484f58">Work orders  ·  Scoping docs  ·  Reports  ·  Audit checklists  ·  Reusable forms</text>
+
+  <!-- Badges -->
+  <g font-family="'Courier New', Courier, monospace" font-size="9.5" font-weight="700">
+    <rect x="174" y="112" width="36" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="192" y="124" fill="#58a6ff" text-anchor="middle">PDF</text>
+    <rect x="216" y="112" width="56" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="244" y="124" fill="#6b7280" text-anchor="middle">pentest</text>
+    <rect x="278" y="112" width="42" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="299" y="124" fill="#6b7280" text-anchor="middle">audit</text>
+    <rect x="326" y="112" width="56" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="354" y="124" fill="#6b7280" text-anchor="middle">forms</text>
+    <rect x="388" y="112" width="56" height="16" rx="3" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+    <text x="416" y="124" fill="#6b7280" text-anchor="middle">reports</text>
+  </g>
+
+  <!-- Author -->
+  <text x="174" y="160" font-family="'Courier New', Courier, monospace" font-size="11" fill="#484f58">SkyzFallin</text>
+</svg>
