@@ -46,6 +46,18 @@ Why this matters: when you take one of these files, edit it, and ship it to a cl
 
 If you fork this repo and add new templates, run them through a metadata stripper (e.g. `exiftool -all= file.pdf`, or open in Word → File → Info → Inspect Document → Remove All) before committing.
 
+## Disclaimer &amp; Authorized Use
+
+These templates are provided **as-is, for lawful use only**, with no warranty of any kind. They are administrative documents — work orders, scoping forms, reports, checklists — and do not themselves perform any testing or grant any authority.
+
+**If you are using these for a pen test, vulnerability assessment, red-team engagement, or any other security testing activity:** you are solely responsible for ensuring that the engagement is properly scoped, authorized in writing by the asset owner, and conducted within the bounds of all applicable laws (including but not limited to the Computer Fraud and Abuse Act in the US, the Computer Misuse Act in the UK, and equivalent statutes elsewhere). A signed scope-of-work, rules-of-engagement document, and explicit written authorization from someone with legal authority over the target systems must be in place **before any testing begins**.
+
+Filling out a work order or report from this repo is **not** a substitute for that authorization. Unauthorized access, scanning, or testing of systems you do not own or have not been explicitly permitted to test is illegal in most jurisdictions and may result in criminal and civil liability.
+
+The author of this repository (SkyzFallin) makes no representation that any template here is fit for a particular purpose, complies with any specific regulatory framework, or constitutes legal advice. **Consult a qualified attorney** before relying on any of these documents in a contractual or legal context. By using these templates you agree that the author bears no liability for any damages, losses, or legal consequences arising from your use of them.
+
+See [LICENSE](LICENSE) for the full terms.
+
 ## Contributing
 
 Pull requests for new templates are welcome. Guidelines:
