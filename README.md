@@ -28,8 +28,9 @@ A small, growing collection of reusable document templates for pen testing, audi
 
 1. Pick a template from the table above.
 2. Open the DOCX in Word / LibreOffice and replace the `[Business Name]` / `[Business Address]` / `[Business Phone Number]` placeholders with your own.
-3. Customize fields to fit the engagement.
-4. Export to PDF when you're ready to send it.
+3. Swap in your own logo / branding — these templates ship with generic, text-only headers on purpose. Drop your company logo into the header (Insert → Picture) and restyle the title to match your brand.
+4. Customize fields to fit the engagement.
+5. Export to PDF when you're ready to send it.
 
 The PDF copies are provided for reference / printing. The DOCX is the editable source.
 
